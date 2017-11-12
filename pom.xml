@@ -7,7 +7,7 @@
       <version>7</version>
    </parent>
 
-   <groupId>com.github.dandelion</groupId>
+   <groupId>com.github.travhill</groupId>
    <artifactId>dandelion</artifactId>
    <version>1.1.2-SNAPSHOT</version>
    <packaging>pom</packaging>
@@ -448,20 +448,15 @@
       </profile>
    </profiles>
 
-   <ciManagement>
-      <system>CloudBees</system>
-      <url>https://dandelion.ci.cloudbees.com/</url>
-   </ciManagement>
-
    <issueManagement>
       <system>GitHub</system>
-      <url>https://github.com/dandelion/dandelion/issues</url>
+      <url>https://github.com/travhill/dandelion/issues</url>
    </issueManagement>
 
    <scm>
-      <connection>scm:git:git://github.com/dandelion/dandelion.git</connection>
-      <developerConnection>scm:git:git@github.com:dandelion/dandelion.git</developerConnection>
-      <url>http://github.com/dandelion/dandelion</url>
+      <connection>scm:git:git://github.com/travhill/dandelion.git</connection>
+      <developerConnection>scm:git:git@github.com:travhill/dandelion.git</developerConnection>
+      <url>http://github.com/travhill/dandelion</url>
    </scm>
 
    <developers>
